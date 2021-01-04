@@ -10,7 +10,7 @@ end
   other_calls = ["plants", "humans", "mushrooms", "brains"]
   short_calls = ["wood", "moss"]
 
-def summon_captain_planet(planeteer_calls)
+def summon_captain_planet(small_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
   planeteer_calls.map do |small_calls|
