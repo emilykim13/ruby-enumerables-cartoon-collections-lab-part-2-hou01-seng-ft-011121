@@ -6,6 +6,10 @@ def square_array(array)
   end
 end
 
+  small_calls = ["earth", "wind", "fire", "water", "heart"]
+  other_calls = ["plants", "humans", "mushrooms", "brains"]
+  short_calls = ["wood", "moss"]
+
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
