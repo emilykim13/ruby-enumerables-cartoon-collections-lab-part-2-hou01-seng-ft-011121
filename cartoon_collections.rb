@@ -27,8 +27,11 @@ def long_planeteer_calls(small_calls)
   answer
 end
 
-def find_valid_calls(planeteer_calls)
+def find_valid_calls(small_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
+  small_calls.find do |valid|
+    small_calls.include?(valid)
+  end
 end
